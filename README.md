@@ -48,6 +48,7 @@ Após instalar, verifique no terminal:
 ```bash
 node -v
 npm -v
+```
 
 ## 📥 Como clonar o repositório
 
@@ -56,6 +57,17 @@ No terminal, execute o comando abaixo para clonar o projeto para sua máquina:
 ```bash
 git clone https://github.com/BiiaBraga/Aulas-JavaScript-Generation.git
 cd Aulas-JavaScript-Generation
+```
+
+## 📦 Instalação das dependências
+
+Após clonar o repositório, é necessário instalar as dependências do projeto.
+A pasta `node_modules` não está incluída no repositório pois está listada no `.gitignore`.
+Para instalar todas as dependências listadas no arquivo `package.json`, execute no terminal:
+
+```bash
+npm install
+```
 
 ## ▶️ Como executar os arquivos
 
@@ -65,6 +77,7 @@ No terminal, utilize o seguinte comando:
 
 ```bash
 node nomeDoArquivo.js
+```
 
 ---
 
